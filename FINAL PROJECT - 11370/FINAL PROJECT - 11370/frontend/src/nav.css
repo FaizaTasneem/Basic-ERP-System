@@ -1,0 +1,107 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 75px;
+    overflow: hidden;
+    background-color: rgb(0,0,0,0.5);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+    text-decoration: underline;
+    transition: 0.3s;
+  }
+
+
+ input[type=text] {
+  width: 500px;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+ }
+ input[type=date] {
+  width: 500px;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+ }
+ input[type=submit] {
+  width: 100px;
+  padding: 10px 10px;
+  /* margin: 8px 0; */
+  color: white;
+  border-radius: 5px;
+ }
+
+ select{
+  width: 500px;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: white;
+ }
+
+.text-center, th, td{
+  color: black;
+  font-size: 18px;
+}
+
+
+tr:nth-child(even) {background-color: lightsteelblue;}
+
+button{
+  background-color:lightsteelblue;
+  border-radius: 5px ;
+}
+
+.py-5{
+  /* background-color: rgb(0,0,0,0.5); */
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+}
+
+.details-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.details-elements{
+  width: 100%;
+}
+
+.formcontainer{
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+}
+.formelem{
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  color:steelblue;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
